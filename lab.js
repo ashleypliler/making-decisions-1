@@ -8,7 +8,7 @@
 
 //CODE HERE
 let lovesCode = true;
-if (lovesCode === true) {
+if (lovesCode) {
   console.log("I love to code!");
   } else {
     console.log("Coding has it's challenges.");
@@ -79,7 +79,7 @@ if (temperature >= 80 && rain){
 */
 
 //CODE HERE
-for (i = 0; i < 10; i++){
+for (let i = 0; i < 10; i++){
   console.log("hello");
 }
 
@@ -90,7 +90,7 @@ for (i = 0; i < 10; i++){
 */
 
 //CODE HERE
-for (i = 1; i < 11; i++){
+for (let i = 1; i < 11; i++){
   console.log(i);
 }
 
@@ -101,7 +101,7 @@ for (i = 1; i < 11; i++){
 */
 
 //CODE HERE
-for (i = 10; i > 0; i--) {
+for (let i = 10; i > 0; i--) {
   console.log(i);
 }
 
@@ -155,5 +155,8 @@ let z = 5;
 
 //CODE HERE
 while (z > 0){
-  console.log(z--);
+ for (let i = z; i > 0; i--){
+  console.log(i);
+ }
+ z--
 }
